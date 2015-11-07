@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/page_bg"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/item_label_space">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <View style="@style/seperator" />
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_guide"
+                app:leftIconSrc="@drawable/set_user_guide"
+                app:labelText="@string/user_guide" />
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/feedback"
+                app:leftIconSrc="@drawable/set_feedback"
+                app:labelText="@string/idea_feedback"/>
+
+        </LinearLayout>
+
+        <View style="@style/seperator"
+            android:layout_marginBottom="@dimen/item_label_space"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <View style="@style/seperator" />
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_right_text_style"
+                android:id="@+id/check_version"
+                app:leftIconSrc="@drawable/set_new_version"
+                app:labelText="@string/check_version"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/about"
+                app:leftIconSrc="@drawable/set_about"
+                app:labelText="@string/about_us"/>
+
+        </LinearLayout>
+
+        <View style="@style/seperator" />
+
+    </LinearLayout>
+
+</ScrollView>

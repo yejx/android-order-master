@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/row"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen_118"
+    android:paddingLeft="@dimen/dimen_24"
+    android:paddingRight="@dimen/dimen_24"
+    android:background="@drawable/ui_common_item_selector"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/tag"
+            >
+
+            <TextView android:id="@+id/multiple_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/dimen_24"
+                android:layout_marginBottom="@dimen/dimen_16"
+                android:textSize="@dimen/dimen_30"/>
+
+
+            <TextView android:id="@+id/multiple_summary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_24"
+                android:textSize="@dimen/dimen_24"
+                android:textColor="@color/gray_bbbbbb"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/multiple_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            style="@style/ui_checkbox_style"
+            android:layout_alignParentRight="true"
+            android:checked="false" />
+
+    </RelativeLayout>
+
+</LinearLayout>

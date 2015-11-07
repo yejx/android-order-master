@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppClientTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <item name="android:windowBackground">@color/color_white_eceff6</item>
+        <item name="android:colorBackground">@color/color_white_eceff6</item>
+    </style>
+
+    <!-- 常用分割线 -->
+    <style name="seperator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#d9d9d9</item>
+    </style>
+
+    <!-- 常用分割线 -->
+    <style name="message_bottom_seperator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+
+    <style name="item_label_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:background">@drawable/item_label_bg_selector</item>
+        <item name="@attr/labelTextSize">@dimen/item_label_left_font_size</item>
+        <item name="@attr/labelTextColor">@color/font_black</item>
+        <item name="@attr/leftIconVisibility">VISIBLE</item>
+        <item name="@attr/rightArrowVisibility">VISIBLE</item>
+    </style>
+
+    <style name="item_label_right_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:background">@drawable/item_label_bg_selector</item>
+        <item name="@attr/labelTextSize">@dimen/item_label_left_font_size</item>
+        <item name="@attr/labelTextColor">@color/font_black</item>
+        <item name="@attr/leftIconVisibility">VISIBLE</item>
+        <item name="@attr/rightArrowVisibility">VISIBLE</item>
+        <item name="@attr/rightTextVisibility">VISIBLE</item>
+        <item name="@attr/rightTextSize">@dimen/item_label_right_font_size</item>
+        <item name="@attr/rightTextColor">@color/font_gray</item>
+    </style>
+
+    <style name="item_label_edit_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_button_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:background">@drawable/item_label_bg_selector</item>
+        <item name="@attr/labelTextSize">@dimen/item_label_left_font_size</item>
+        <item name="@attr/labelTextColor">@color/font_black</item>
+        <item name="@attr/centerTextSize">@dimen/item_label_left_font_size</item>
+        <item name="@attr/centerTextColor">@color/font_black</item>
+        <item name="@attr/centerHintTextColor">@color/font_shallow</item>
+        <item name="@attr/leftIconVisibility">VISIBLE</item>
+        <item name="@attr/rightArrowVisibility">INVISIBLE</item>
+    </style>
+
+    <style name="button_red_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_88</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:background">@drawable/btn_bg_light_red</item>
+        <item name="android:layout_margin">@dimen/dimen_36</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

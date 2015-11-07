@@ -1,0 +1,206 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/page_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@drawable/user_top_bg">
+
+            <com.order.ui.component.CircleImageView
+                android:id="@+id/user_photo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/user_default_head" />
+
+            <LinearLayout
+                android:id="@+id/ll_user_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:divider="@color/white"
+                android:orientation="vertical"
+                android:layout_marginLeft="18dp"
+                android:layout_toRightOf="@+id/user_photo"
+                android:layout_centerVertical="true">
+
+                <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="张三丰"
+                    android:textColor="@color/nav_bg"
+                    android:textSize="17sp"
+                    android:background="@null"
+                    android:maxLength="5"
+                    android:textCursorDrawable="@null"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:id="@+id/user_mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="4dp"
+                    android:text="13612345678"
+                    android:textColor="@color/font_black"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivEdit"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@+id/ll_user_info"
+                android:src="@drawable/edit"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/btn_fast_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/guide_btn_white_selector"
+                android:text="@string/user_fast_pay"
+                android:textColor="@color/nav_bg"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+
+        <View style="@style/seperator"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/item_label_space">
+
+            <View style="@style/seperator" />
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_bookup_manager"
+                app:labelText="@string/user_bookup_manager"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_orderfood_manager"
+                app:labelText="@string/user_orderfood_manager"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_takeout_manager"
+                app:labelText="@string/user_takeout_manager"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_oto_manager"
+                app:labelText="@string/user_oto_manager"/>
+
+            <View style="@style/seperator"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/item_label_space">
+
+            <View style="@style/seperator" />
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_fast_pay_record"
+                app:labelText="@string/user_fast_pay_record"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_pay_record"
+                app:labelText="@string/user_pay_record"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_refund_manager"
+                app:labelText="@string/user_refund_manager"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_my_voucher"
+                app:labelText="@string/user_my_voucher"/>
+
+            <View style="@style/seperator"
+                android:layout_marginLeft="@dimen/middle_line_left_space"/>
+
+            <com.order.ui.component.LabelItemView
+                style="@style/item_label_text_style"
+                android:id="@+id/user_address_manage"
+                app:labelText="@string/user_address_manage"/>
+
+            <View style="@style/seperator"/>
+        </LinearLayout>
+
+        <View style="@style/seperator"
+            android:layout_marginTop="@dimen/item_label_space"/>
+
+        <com.order.ui.component.LabelItemView
+            style="@style/item_label_text_style"
+            android:id="@+id/user_msg_manager"
+            app:labelText="@string/user_msg_manager"/>
+
+        <View style="@style/seperator"/>
+
+        <View style="@style/seperator"
+            android:layout_marginTop="@dimen/item_label_space"/>
+
+        <com.order.ui.component.LabelItemView
+            style="@style/item_label_right_text_style"
+            android:id="@+id/user_public_phone"
+            app:labelText="@string/user_public_phone"
+            app:rightText="18259060689"
+            app:rightTextColor="@color/nav_bg"
+            app:rightArrowVisibility="GONE"/>
+
+        <View style="@style/seperator"/>
+
+        <Button
+            style="@style/button_red_style"
+            android:id="@+id/exit_login_button"
+            android:text="@string/exit_login"/>
+
+    </LinearLayout>
+</ScrollView>

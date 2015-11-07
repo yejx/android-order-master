@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OrderUI</string>
+
+    <string name="ui_progress_dialog_default_message">正在加载 ...</string>
+    <string name="ui_progress_dialog_location_message">正在定位 ...</string>
+    <string name="ui_network_not_avaiable">网络无法连接</string>
+
+    <string name="ui_progressbar_dialog_default_message">正在读取卡片信息 ...</string>
+    <string name="ui_progressbar_dialog_default_progress">0%</string>
+
+    <!--对话框-->
+    <string name="ui_certain">确定</string>
+    <string name="ui_cancel">取消</string>
+    <string name="ui_retry">重试</string>
+    <string name="ui_yes">是</string>
+    <string name="ui_no">否</string>
+    <string name="ui_back">返回</string>
+</resources>

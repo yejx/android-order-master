@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_margin="5dp"
+    android:background="#88d8000c"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/table_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textColor="@color/font_black"
+        android:textSize="18sp">
+    </TextView>
+    <TextView
+        android:id="@+id/table_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@color/font_black"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp">
+    </TextView>
+    <TextView
+        android:id="@+id/table_man_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textColor="@color/font_black"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/table_state">
+    </TextView>
+    <TextView
+        android:id="@+id/table_state"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Item"
+        android:textColor="@color/font_black"
+        android:textSize="18sp"
+        android:layout_below="@+id/table_number"
+        android:layout_marginTop="20dp">
+    </TextView>
+<!--    <TextView
+        android:id="@+id/table_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textColor="@color/font_black"
+        android:textSize="16sp" >
+    </TextView>-->
+</RelativeLayout>

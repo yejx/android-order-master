@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Dialog类的颜色 -->
+    <color name="ui_dialog_title_color">#333333</color>
+    <color name="ui_alert_dialog_message_color">#828282</color>
+    <color name="ui_alert_dialog_button_divider_color">#d4dfe3</color>
+    <color name="ui_alert_dialog_button_divider_color_d6d6da">#d6d6da</color>
+    <color name="ui_dialog_window_bg">#59000000</color>
+
+    <color name="l_white">#ffffff</color>
+    <color name="l_gray">#DDDDDD</color>
+    <color name="l_gray_cccccc">#CCCCCC</color>
+    <color name="l_box">#cccccc</color>
+    <color name="l_transparence">#00000000</color>
+    <color name="l_chenckeditem">#50282828</color>
+    <color name="color_black_70">#70000000</color>
+    <color name="color_black_90">#90000000</color>
+    <color name="color_black_35">#35000000</color>
+    <color name="color_black_727485">#727485</color>
+    <color name="color_white_70">#70ffffff</color>
+    <color name="color_white_80">#80ffffff</color>
+    <color name="color_white_10">#10ffffff</color>
+    <color name="color_white_65">#65ffffff</color>
+    <color name="color_white_45">#45ffffff</color>
+    <color name="color_white_20">#20ffffff</color>
+
+    <!--日历中用到的颜色值-->
+    <color name="l_calendar_active_month_bg">#fff5f7f9</color>
+    <color name="l_calendar_divider">#ffbababa</color>
+    <color name="l_calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="l_calendar_selected_day_bg">#ff379bff</color>
+    <color name="l_calendar_selected_range_bg">#ff96caff</color>
+    <color name="l_calendar_text_inactive">#40778088</color>
+    <color name="l_calendar_text_active">#ff778088</color>
+    <color name="l_calendar_text_unselectable">#7f778088</color>
+    <color name="l_calendar_text_holiday">#FF0000</color>
+    <color name="l_calendar_text_today">#FF9900</color>
+    <color name="l_calendar_blue_00AEFF">#00AEFF</color>
+    <color name="l_btn_blue_00A8FF">#00A8FF</color>
+    <color name="l_calendar_gray_f2f2f2">#F2F2F2</color>
+    <color name="l_light_gray">#a1a1a1</color>
+
+    <color name="ui_grid__line_color">#d4dfe4</color>
+
+    <!--通用组件使用颜色-->
+    <color name="ui_divider_bg_color">#d3e0e3</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="ui_white_bg_gray_border_color">#d4dfe4</color>
+
+    <!--分享颜色-->
+    <color name="transparent_background_black">#40000000</color>
+
+    <!--通用颜色-->
+    <color name="white">#ffffff</color>
+    <color name="red_ff0000">#ff0000</color>
+    <color name="red_c80c0c">#c80c0c</color>
+    <color name="black">#000000</color>
+    <color name="black_727385">#727385</color>
+
+    <color name="blue">#0000FF</color>
+    <color name="blue_006BB1">#006BB1</color>
+    <color name="blue_00AEFF">#00AEFF</color>
+    <color name="blue_34abf0">#34abf0</color>
+    <color name="blue_414574">#414574</color>
+    <color name="gray">#f7f7f7</color>
+    <color name="gray_5e5e5e">#5e5e5e</color>
+    <color name="gray_b5b5b6">#b5b5b6</color>
+    <color name="gray_949494">#949494</color>
+    <color name="gray_CCCCCC">#CCCCCC</color>
+    <color name="gray_666666">#666666</color>
+    <color name="gray_727485">#727485</color>
+    <color name="gray_bbbbbb">#bbbbbb</color>
+    <color name="gray_eeeeee">#eeeeee</color>
+    <color name="gray_3a3a3a">#3a3a3a</color>
+    <color name="gray_d3d3d3">#d3d3d3</color>
+    <color name="orange_ff9900">#ff9900</color>
+    <color name="orange_ff7a1b">#ff7a1b</color>
+
+    <color name="gray_e6e7e9">#e6e7e9</color>
+
+    <color name="color_gray_727485">#727485</color>
+    <color name="color_gray_d3e0e3">#d3e0e3</color>
+    <color name="color_gray_d9d9d9">#d9d9d9</color>
+    <color name="color_white_ffffff">#ffffff</color>
+    <color name="color_white_eceff6">#eceff6</color>
+    <color name="color_blue_3b4a78">#3b4a78</color>
+    <color name="color_blue_50bdef">#50bdef</color>
+    <color name="color_blue_33acf0">#33acf0</color>
+    <color name="slime_color">#6aa1a8</color>
+    <color name="color_light_blue">#506aa1a8</color>
+
+    <color name="color_orange_f96029">#f96029</color>
+    <color name="color_purple_4b3761">#4b3761</color>
+    <color name="color_blue_21AFBC">#21AFBC</color>
+    <color name="color_blue_00a8ff">#00a8ff</color>
+    <color name="color_blue_01103d">#050d2b</color>
+    <color name="color_red_ea434e">#ea434e</color>
+    <color name="color_red_ed465a">#ed465a</color>
+    <color name="color_red_ff0000">#ff0000</color>
+    <color name="color_purple_471b4e">#471b4e</color>
+    <color name="color_blue_0d4b64">#0d4b64</color>
+    <color name="color_blue_021830">#021830</color>
+    <color name="color_gray_aaaa">#aaaa</color>
+    <color name="color_orange_f95b09">#f95b09</color>
+    <color name="color_orange_fecf08">#fecf08</color>
+    <color name="color_orange_ffff0b">#ffff0b</color>
+    <color name="color_green_33fbae">#33fbae</color>
+    <color name="color_green_d8ffec">#d8ffec</color>
+    <color name="color_white_d6d6d7">#d6d6d7</color>
+    <color name="color_gray_4b4a4f">#4b4a4f</color>
+    <color name="color_gray_29282f">#29282f</color>
+    <color name="color_gray_434347">#434347</color>
+    <color name="color_gray_8e8e90">#8e8e90</color>
+    <color name="color_gray_8e91a1">#8e91a1</color>
+    <color name="color_black_505050">#505050</color>
+    <color name="color_purple_230f3c">#230f3c</color>
+    <color name="color_purple_312f5f">#312f5f</color>
+    <color name="color_black_050d2b">#050d2b</color>
+    <color name="color_black_040d35">#040d35</color>
+    <color name="color_gray_eceff6">#eceff6</color>
+    <color name="color_gray_9d99af">#9d99af</color>
+    <color name="color_gray_aeaeae">#aeaeae</color>
+
+    <color name="color_purple_282d5d">#282d5d</color>
+    <color name="color_purple_322f5f">#322f5f</color>
+    <color name="color_blue_050918">#050918</color>
+    <color name="color_blue_050e2b">#050e2b</color>
+    <color name="color_purple_1f0e36">#1f0e36</color>
+    <color name="color_purple_240e3c">#240e3c</color>
+    <color name="color_blue_040a29">#040a29</color>
+    <color name="color_blue_030d34">#030d34</color>
+    <color name="color_gray_f2f2f9">#f2f2f9</color>
+    <color name="color_gray_bfbfbf">#bfbfbf</color>
+    <color name="color_green_32CD32">#32CD32</color>
+    <color name="color_black_3e3d44">#3e3d44</color>
+    <color name="color_gray_efeff4">#efeff4</color>
+    <color name="color_black_1e1e1e">#1e1e1e</color>
+    <color name="color_green_00d01d">#00d01d</color>
+    <color name="color_blue_00a2ff">#00a2ff</color>
+    <color name="color_blue_00aaff">#00aaff</color>
+    <color name="color_blue_9edcff">#9edcff</color>
+    <color name="color_blue_64c6fd">#64c6fd</color>
+    <color name="color_gray_828282">#828282</color>
+    <color name="color_blue_01a9f8">#01a9f8</color>
+    <color name="color_gray_4a4447">#4a4447</color>
+    <color name="color_gray_322b2f">#322b2f</color>
+    <color name="color_gray_211b1b">#211b1b</color>
+    <color name="color_gray_fafafa">#fafafa</color>
+    <color name="color_gray_e2e2e2">#e2e2e2</color>
+    <color name="color_green_00a80c">#00a80c</color>
+    <color name="color_gray_d8211b1b">#d8211b1b</color>
+
+    <!--导航栏背景-->
+    <color name="nav_bg">#d8000c</color>
+    <color name="nav_title_color">#505050</color>
+
+</resources>

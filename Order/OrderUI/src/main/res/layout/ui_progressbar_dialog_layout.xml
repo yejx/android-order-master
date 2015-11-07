@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner_item_normal"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/progressbar_dialog_layout_title"
+        android:text="@string/ui_progressbar_dialog_default_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_40"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="3"
+        android:visibility="gone"
+        android:textColor="@color/color_blue_3b4a78"
+        android:textSize="@dimen/dimen_34"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/ui_dialog_top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:visibility="gone"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/ui_alert_dialog_button_divider_color"/>
+
+    <TextView
+        android:id="@+id/dialog_middle_text"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_40"
+        android:layout_marginBottom="@dimen/dimen_30"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:maxLines="10"
+        android:scrollHorizontally="false"
+        android:textColor="@color/ui_alert_dialog_message_color"
+        android:textSize="@dimen/dimen_28"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progress_horizontal_1"
+        android:layout_width="@dimen/dimen_510"
+        android:layout_height="@dimen/dimen_32"
+        android:layout_marginLeft="@dimen/dimen_30"
+        android:layout_marginRight="@dimen/dimen_30"
+        android:layout_marginBottom="@dimen/dimen_30"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:theme="@style/Base.V21.Theme.AppCompat.Light.Dialog"
+        android:id="@+id/progressBar"
+        android:progress="@integer/abc_config_activityDefaultDur"
+        android:indeterminate="false"/>
+
+
+    <View
+        android:id="@+id/ui_dialog_bottom_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:visibility="gone"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/ui_alert_dialog_button_divider_color"/>
+
+    <Button
+        android:id="@+id/button"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:text="ok"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ui_selector_dialog_common_btn"
+        android:focusable="false"
+        android:gravity="center"
+        android:textColor="@color/ui_common_item_text_color_selector"
+        android:textSize="@dimen/dimen_34"/>
+
+
+</LinearLayout>
