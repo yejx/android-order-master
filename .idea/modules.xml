@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Order.iml" filepath="$PROJECT_DIR$/Order.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrderClient/OrderClient.iml" filepath="$PROJECT_DIR$/OrderClient/OrderClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/OrderUI/OrderUI.iml" filepath="$PROJECT_DIR$/OrderUI/OrderUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-order-master.iml" filepath="$PROJECT_DIR$/android-order-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
     </modules>
   </component>
