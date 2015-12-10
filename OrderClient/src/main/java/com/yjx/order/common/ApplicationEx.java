@@ -8,6 +8,8 @@ import android.content.Context;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
+import com.umeng.analytics.AnalyticsConfig;
+import com.umeng.analytics.MobclickAgent;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -60,6 +62,15 @@ public class ApplicationEx extends Application {
         super.onCreate();
         instance = this;
         mRequestQueue = Volley.newRequestQueue(this);
+
+        initUmeng();
+    }
+
+    private void initUmeng() {
+        AnalyticsConfig.setAppkey(this, "56605e9067e58e2b2c001342");
+        MobclickAgent.updateOnlineConfig(this);
+        MobclickAgent.openActivityDurationTrack(false);
+        MobclickAgent.setCatchUncaughtExceptions(true);
     }
 
     /**

@@ -118,7 +118,7 @@ public class LoginActivity extends BaseActivity implements SoftKeyBoardSatusView
         initView();
         setListener();
         initRectAndReceiver();
-
+//        throw new RuntimeException("This is a crash");
     }
 
     private void initRectAndReceiver() {

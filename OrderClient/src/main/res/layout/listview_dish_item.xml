@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="水煮鱼"
-            android:textSize="13sp"
+            android:textSize="@dimen/item_order_font_size"
             android:textColor="@color/font_black"
             android:layout_weight="1"
             android:gravity="center_vertical"
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="¥50.00"
-            android:textSize="13sp"
+            android:textSize="@dimen/item_order_font_size"
             android:textColor="@color/font_shallow"
             android:layout_weight="1"
             android:gravity="center_vertical"/>
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="50.0元/盘"
-            android:textSize="13sp"
+            android:textSize="@dimen/item_order_font_size"
             android:textColor="@color/font_shallow"
             android:layout_weight="1"
             android:gravity="center_vertical"/>

@@ -12,6 +12,7 @@ import com.yjx.order.http.HttpResponseListener;
 import com.yjx.order.http.ResponseHandler;
 import com.yjx.order.http.request.CommonRequestFactory;
 import com.yjx.order.ui.component.LabelEditText;
+import com.yjx.order.util.StringUtil;
 import com.yjx.order.util.ToastUtil;
 
 public class RegisterActivity extends BaseActivity implements View.OnClickListener{
@@ -35,7 +36,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
 
     private void initUI(){
         navigationBar.setTitle(R.string.register);
-
+        item_mobile.setLabelText(StringUtil.addSpaceToStringFront(getString(R.string.mobile), 4));
+        item_password.setLabelText(StringUtil.addSpaceToStringFront(getString(R.string.pwd), 4));
     }
 
     @Override

@@ -36,6 +36,15 @@
         android:label="@string/app_name"
         android:theme="@style/AppClientTheme"
         android:screenOrientation="portrait">
+
+        <!-- 友盟 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="xiaoxingxing" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56605e9067e58e2b2c001342" />
+
         <activity
             android:name=".activity.BaseActivity"
             android:label="@string/title_activity_base" >
@@ -57,6 +66,7 @@
         <activity android:name=".activity.UserActivity"/>
         <activity android:name=".activity.SettingActivity"/>
         <activity android:name=".activity.OrderActivity"/>
+        <activity android:name=".activity.OrderDetailActivity"/>
         <activity android:name=".activity.BookActivity"/>
         <activity android:name=".activity.GroupPurchaseActivity"/>
     </application>

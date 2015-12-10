@@ -3,6 +3,7 @@
     <dimen name="btn_font_size">17sp</dimen>
     <dimen name="item_label_left_font_size">17sp</dimen>
     <dimen name="item_label_right_font_size">15sp</dimen>
+    <dimen name="item_order_font_size">15sp</dimen>
 
     <!--白色选项条、按钮高度-->
     <dimen name="item_button_height">43dp</dimen>

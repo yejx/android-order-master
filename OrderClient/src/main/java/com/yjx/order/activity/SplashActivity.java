@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
+import com.umeng.analytics.MobclickAgent;
 import com.yjx.order.R;
 import com.yjx.order.util.PreferencesUtil;
 
@@ -36,7 +37,18 @@ public class SplashActivity extends BaseActivity{
         context = this;
         initUI();
         startDelayed(2000);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 
     private void initUI(){

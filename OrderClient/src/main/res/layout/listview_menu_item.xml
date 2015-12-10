@@ -5,7 +5,7 @@
     android:layout_height="60dp"
     android:gravity="center"
     android:layout_gravity="center"
-    android:textSize="13sp"
+    android:textSize="@dimen/item_order_font_size"
     android:textColor="@color/menu_text_color_selector"
     android:background="@color/gray_e6e7e9"
     android:singleLine="true"

@@ -149,6 +149,11 @@ public class DishDao extends BaseDao {
                 lstDish.add(map);
             } while (c.moveToNext());
         }
+
+        if (c !=null){
+            c.close();
+            c = null;
+        }
         return lstDish;
 
     }

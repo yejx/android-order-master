@@ -33,14 +33,13 @@
     <View style="@style/seperator"/>
 
     <ListView
-        android:id="@+id/lvDish"
+        android:id="@+id/lvOrderDetail"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:listSelector="#00000000"
         android:scrollbars="none"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50.5dp"
+        android:layout_marginBottom="100.5dp"
         android:background="@color/white">
     </ListView>
 
@@ -55,6 +54,7 @@
         <View style="@style/seperator"/>
 
         <TextView
+            android:id="@+id/tvTotal"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="共计5菜，菜单金额：¥200.00"

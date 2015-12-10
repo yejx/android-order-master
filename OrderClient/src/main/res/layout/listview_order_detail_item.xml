@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:gravity="center_vertical">
+
+    <com.order.ui.component.MyTextView
+        android:id="@+id/tvDishName"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="水煮鱼"
+        android:textSize="@dimen/item_order_font_size"
+        android:textColor="@color/font_black"
+        android:gravity="center"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:ellipsize="marquee" />
+    <TextView
+        android:id="@+id/tvDishNum"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="*1份"
+        android:textSize="@dimen/item_order_font_size"
+        android:textColor="@color/font_black"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tvDishPrice"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="¥222.34"
+        android:textSize="@dimen/item_order_font_size"
+        android:textColor="@color/nav_bg"
+        android:gravity="center"/>
+
+</LinearLayout>
+

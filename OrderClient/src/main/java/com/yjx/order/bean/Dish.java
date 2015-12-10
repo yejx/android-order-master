@@ -1,12 +1,12 @@
 package com.yjx.order.bean;
 
 public class Dish {
-	private String name;
-	private String type;
-	private String price;
-	private String currency;
-	private String unit;
-	private String photo;
+	private String name;  //菜名
+	private String type;  //菜品类型
+	private String price; //菜品价格
+	private String currency; //货币类型
+	private String unit;  //菜品单位
+	private String photo; //图片
 
 	public Dish() {
 	}

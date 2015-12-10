@@ -22,6 +22,7 @@ public class DishAdapter extends BaseAdapter {
 	private Context context;
 	private List<Map<String,String>> lstDish,lstDishType;
 	int num = 0;
+	private UpdateOrderDetailListener updateOrderDetailListener;
 	public class ViewHolder{
 		private ImageView ivDishPhoto;
 		private TextView tvDishName;
@@ -32,11 +33,13 @@ public class DishAdapter extends BaseAdapter {
 		private ImageView btnDeleteDish;
 	}
 	
-	public DishAdapter(Context context, List<Map<String, String>> lstDish,List<Map<String, String>> lstDishType) {
+	public DishAdapter(Context context, List<Map<String, String>> lstDish,List<Map<String, String>> lstDishType,
+					   UpdateOrderDetailListener updateOrderDetailListener) {
 		super();
 		this.context = context;
 		this.lstDish = lstDish;
 		this.lstDishType = lstDishType;
+		this.updateOrderDetailListener = updateOrderDetailListener;
 	}
 
 	@Override
@@ -95,6 +98,7 @@ public class DishAdapter extends BaseAdapter {
 				lstDish.get(id).put("number", String.valueOf(num));
 				lstDish.get(id).put("order", map.get("name") + "\n" + num + "*" + map.get("price") + ".0" + map.get("currency"));
 				vh.etDishNumber.setText("" + num);
+				updateOrderDetailListener.update();
 			}
 		});
         vh.btnDeleteDish.setOnClickListener(new OnClickListener() {
@@ -110,6 +114,7 @@ public class DishAdapter extends BaseAdapter {
 					lstDish.get(id).put("number", String.valueOf(num));
 					lstDish.get(position).put("order", map.get("name") + "\n" + num + "*" + map.get("price") + ".0元");
 					vh.etDishNumber.setText("" + num);
+					updateOrderDetailListener.update();
 				}
 
 			}
@@ -123,5 +128,9 @@ public class DishAdapter extends BaseAdapter {
 	public void updateDishType(List<Map<String,String>> lstDishType) {
 		this.lstDishType = new ArrayList<>(lstDishType);
 		notifyDataSetChanged();
+	}
+
+	public interface UpdateOrderDetailListener{
+		public void update();
 	}
 }

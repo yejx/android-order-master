@@ -25,6 +25,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile project(':volley')
     compile project(':OrderUI')
+    compile 'com.umeng.analytics:analytics:latest.integration'
     compile 'com.android.support:appcompat-v7:22.1.0'
     compile 'com.ogaclejapan.arclayout:library:1.0.1@aar'
 }

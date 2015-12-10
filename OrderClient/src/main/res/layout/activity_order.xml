@@ -74,6 +74,7 @@
                     android:src="@drawable/public_upthrust"/>
 
                 <TextView
+                    android:id="@+id/tvTotal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="共计5菜，菜单金额：¥200.00"
@@ -93,6 +94,13 @@
             android:orientation="vertical"
             android:paddingLeft="20dip"
             android:paddingRight="20dip">
+            <ListView
+                android:id="@+id/lvOrder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:listSelector="@drawable/listview_white_selector">
+            </ListView>
         </LinearLayout>
     </SlidingDrawer>
 

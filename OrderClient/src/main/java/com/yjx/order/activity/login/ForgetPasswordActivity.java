@@ -12,6 +12,7 @@ import com.yjx.order.http.HttpResponseListener;
 import com.yjx.order.http.ResponseHandler;
 import com.yjx.order.http.request.CommonRequestFactory;
 import com.yjx.order.ui.component.LabelEditText;
+import com.yjx.order.util.StringUtil;
 import com.yjx.order.util.ToastUtil;
 
 public class ForgetPasswordActivity extends BaseActivity implements View.OnClickListener{
@@ -36,7 +37,8 @@ public class ForgetPasswordActivity extends BaseActivity implements View.OnClick
 
     private void initUI(){
         navigationBar.setTitle(R.string.modify_pwd);
-
+        item_mobile.setLabelText(StringUtil.addSpaceToStringFront(getString(R.string.mobile), 4));
+        item_new_password.setLabelText(StringUtil.addSpaceToStringFront(getString(R.string.new_pwd), 4));
     }
 
     @Override
